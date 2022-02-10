@@ -11,7 +11,7 @@ def phones_create():
     import sqlite3
     con = sqlite3.connect('example.db')
     cur = con.cursor()
-
+    print(1111111111111111)
     # Create table
     sql = f'''
     INSERT INTO phones (name, phone)
