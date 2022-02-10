@@ -70,7 +70,7 @@ def phones_delete():
     cur.execute(sql)
     con.commit()
     con.close()
-    print('HELLO')
+    print('HELLO2222222')
     return 'OK'
 
 
