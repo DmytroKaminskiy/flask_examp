@@ -3,10 +3,12 @@ from flask import Flask, request
 app = Flask(__name__)
 print(1111111111)
 print(2222222222222)
+print(2222222222222)
 
 
 @app.route('/phones/create/')
 def phones_create():
+    name = request.args['name']
     name = request.args['name']
     phone = request.args['phone']
 
