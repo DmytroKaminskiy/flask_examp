@@ -1,6 +1,7 @@
 from flask import Flask, request
 
 app = Flask(__name__)
+print(2222222222222)
 
 
 @app.route('/phones/create/')
